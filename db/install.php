@@ -28,7 +28,7 @@ defined('MOODLE_INTERNAL') || die();
 /**
  * Custom code to be run on installing the plugin.
  */
-function xmldb_local_inteview_install() {
+function xmldb_local_interview_install() {
 
     return true;
 }

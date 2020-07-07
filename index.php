@@ -1,4 +1,7 @@
 <?php
+
+use local_interview\sample\users;
+
 require_once('../../config.php');
 require_login();
 $url = new moodle_url('/local/interview/index.php');
@@ -9,6 +12,7 @@ $PAGE->set_context($syscontext);
 echo $OUTPUT->header();
 
 // Your code here..
-echo "Hello World"; //remove this
+$users = new users();
+$users->say("Hello There!");
 
 echo $OUTPUT->footer($PAGE->course);

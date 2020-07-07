@@ -28,12 +28,12 @@ defined('MOODLE_INTERNAL') || die();
 require_once(__DIR__ . '/upgradelib.php');
 
 /**
- * Execute local_inteview upgrade from the given old version.
+ * Execute local_interview upgrade from the given old version.
  *
  * @param int $oldversion
  * @return bool
  */
-function xmldb_local_inteview_upgrade($oldversion) {
+function xmldb_local_interview_upgrade($oldversion) {
     global $DB;
 
     $dbman = $DB->get_manager();
