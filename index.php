@@ -1,6 +1,6 @@
 <?php
 
-use local_interview\sample\users;
+use local_interview\models\users;
 
 require_once('../../config.php');
 require_login();
